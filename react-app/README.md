@@ -13,8 +13,10 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ENV :
 
-VITE_REACT_APP_API_URL=https://68930e47c49d24bce8693965.mockapi.io/users
-VITE_REACT_APP_MOVIE_API_URL=https://68930e47c49d24bce8693965.mockapi.io/movies
+VITE_REACT_APP_API_URL=http://localhost:3001/api
+VITE_REACT_APP_USERS_API_URL=http://localhost:3001/api/users
+VITE_REACT_APP_MOVIE_API_URL=http://localhost:3001/api/movies
+VITE_REACT_APP_API_ORIGIN=http://localhost:3001  
 
 LOGIN :
 
